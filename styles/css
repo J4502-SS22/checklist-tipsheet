@@ -1,0 +1,143 @@
+nav {
+  background: #D335D8;
+}
+
+nav ul {
+  display:flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  height: 100%;
+}
+
+nav li {
+  width: 100%;
+  height: 33.333333%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+  border-top: 1px solid #011116;
+  border-bottom: 1px solid #011116;
+}
+
+a {
+  color: #D335D8;
+  font-weight: bold;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+nav a:focus {
+  background: #FFFFFF;
+  color: #2D5D6C;
+}
+.header {
+  width: 60%;
+  font-size: 55px;
+  text-align: center;
+  font-family: 'Coronetscript', cursive;
+  color: ##310832;
+  background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: 40px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-top: 8px solid #011116;
+  border-bottom: 8px solid #011116;
+  border-left: 8px solid #011116;
+  border-right: 8px solid #011116;
+}
+
+.header2
+{
+  width: 80%;
+  font-size: 27px;
+  text-align: center;
+  font-family: 'Blippo', serif;
+  color: #0B566C;
+  background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+figure {
+  width: auto;
+  max-width: 450px;
+  align-items: center;
+}
+
+figcaption {
+  background-color: #27C3C3;
+  align-items: center;
+  color: black;
+  text-align: center;
+  font-size: 1rem;
+  padding: 5px;
+  max-width: 750px;
+  width: auto;
+}
+
+.headshot {
+  display: block;
+  justify-content: center;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  margin: 0;
+  padding: 5px;
+  font-family: 'Blippo' monospace;
+  width: 80%;
+  font-size: 24px;
+  text-align: center;
+  color: #0B566C;
+  background-color: white;
+  display: block;
+  }
+  
+  h2{
+    margin: 20;
+    padding: 2px;
+    font-family: 'Blippo' monospace;
+    width: 72%;
+    font-size: 16px;
+    text-align: center;
+    color: #0B566C;
+    background-color: white;
+    display: block;
+    }
+
+
+
