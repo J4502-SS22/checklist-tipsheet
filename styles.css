@@ -47,9 +47,9 @@ nav a:focus {
   width: 60%;
   font-size: 55px;
   text-align: center;
-  font-family: 'Coronetscript', cursive;
-  color: ##310832;
-  background-color: white;
+  font-family: 'Coronetscript', sans-serif;
+  color: #DAC3BF;
+  background-color: black;
   display: block;
   margin-left: auto;
   margin-right: auto;
